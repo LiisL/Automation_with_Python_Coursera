@@ -1,0 +1,17 @@
+#Q8
+#Assuming there are 60 minutes in an hour, write a program that calculates the number of minutes in a 24 hour day. Print the result on screen.
+print((24*60))
+
+#Q9
+#Use Python to calculate how many number-based passcodes can be formed with 10 numerals.(0-9)
+print((10**8))
+
+#Q10
+
+total_computers = 30*20
+replacement_cycle = 5
+computers_per_year = ((30*20)*(1/5))
+
+
+print(computers_per_year)
+ #Should print 120.0
