@@ -95,3 +95,32 @@ def hint_username(username):
         print("Valid username")
         
 hint_username("Lyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy")
+#Study Guide: Conditionals
+
+def translate_error_code(error_code):
+    if error_code == "401 Unauthorized":
+        translation = "Server received an unauthenticated request"
+    elif error_code == "404 Not Found":    
+        translation = "Requested web page not found on server"
+    elif error_code == "408 Request Timeout":
+        translation = "Server request to close unused connection"
+    else:
+        translation = "Unknown error code"
+    return translation
+        
+print(translate_error_code("404 Not Found"))
+
+
+def your_stage_name(name):
+    if name.startswith("A"):
+        stage_name ="Anna"
+    elif name.startswith("B"):
+        stage_name = "Banana"
+    else:
+        stage_name = name
+    return stage_name
+    
+print(your_stage_name("Angelina"))
+print(your_stage_name("Brianne")) 
+print(your_stage_name("Lovely"))       
+
