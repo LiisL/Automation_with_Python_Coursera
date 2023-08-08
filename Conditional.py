@@ -67,3 +67,31 @@ def hint_username(username):
         print("valid username!")
         
 hint_username("Lii")        
+def is_positive(number):
+  if number > 0:
+    return True
+  else:
+    return False
+    
+print(is_positive(5) )   
+    
+    
+def is_even(number):
+    if number % 2 == 0:
+        return True
+    else:
+        return False
+        
+print(is_even(10))        
+    
+
+#elif Statements
+def hint_username(username):
+    if len(username) < 3:
+        print("Invalid username. Username must be atleast 3 characters long.")
+    elif len(username) > 15:
+        print("Invalid username. Username can be at most 15 characters long.")
+    else:
+        print("Valid username")
+        
+hint_username("Lyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy")
