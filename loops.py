@@ -35,3 +35,11 @@ def to_celsius(x):
     
 for x in range(0,101,10):
     print(x, to_celsius(x))
+
+# Nested for loop
+for left in range(7):
+    for right in range(left,7):
+        print(f"[{left}|{right}]", end=" ")
+    print()  
+
+
